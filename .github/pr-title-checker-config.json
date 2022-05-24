@@ -1,0 +1,17 @@
+{
+  "LABEL": {
+    "name": "conventional",
+    "color": "EEEEEE"
+  },
+  "CHECKS": {
+    "prefixes": [],
+    "regexp": "^(fix|feat|build|ci|docs|style|refactor|perf|test|chore)(\\(.+\\))?: ",
+    "regexpFlags": "i",
+    "ignoreLabels": ["dont-check-PRs-with-this-label", "meta"]
+  },
+  "MESSAGES": {
+    "success": "PR Title is Valid",
+    "failure": "PR Title is Invalid",
+    "notice": ""
+  }
+}
